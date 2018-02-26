@@ -14,7 +14,7 @@ export const experiences = {
 </ul>`,
             companyLink: 'https://www.tradair.com',
             companyShortDetail: '',
-            date: 'Nov 2016 - Present'
+            date: 'Nov. 2016 - Present'
         },
         {
             title: 'DevOps Engineer',

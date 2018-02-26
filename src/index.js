@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import Data from './data';
-import registerServiceWorker from './registerServiceWorker';
+import { unregister } from './registerServiceWorker';
 
 // Add this import:
 import { AppContainer } from 'react-hot-loader';
@@ -18,10 +18,7 @@ const render = (App) => {
     );
 };
 
-// Do this once
-registerServiceWorker();
-
-// Render once
+unregister();
 render(App);
 
 // Webpack Hot Module Replacement API
