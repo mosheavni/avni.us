@@ -7,7 +7,8 @@ export const careerProfile = {
 Punctual, reliable, organized, service oriented and excellent in human relations.
 Very high technical skills, Jack of all trades.</p>
 <p>🇺🇸 Born in USA 🇺🇸</p>
-<p>🇮🇱 Living in Israel 🇮🇱</p>`
+<p>🇮🇱 Living in Israel 🇮🇱</p>
+<p>Main development/scripting languages: Python, JavaScript, Bash</p>`
 };
 
 export default careerProfile;
