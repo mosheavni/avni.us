@@ -28,7 +28,7 @@ export const experiences = {
             company: 'TOYGA',
             description: `Implementing DevOps technologies: <a href="https://jenkins.io/" target="_blank">Jenkins CI\\CD</a> build\\deploy automations with <a href="https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-reference" target="_blank">MS-Build</a>, <a href="https://www.nagios.org/" target="_blank">Nagios</a> + <a href="https://mathias-kettner.de/check_mk.html" target="_blank">Check_mk</a> monitoring, scripting mainly with Bash.<br /><a href="https://gitlab.com/" target="_blank">Git</a> version management, Log management solution: <a href="https://logz.io/" target="_blank">ELK stack</a>.<br />Linux and Windows system administering of over 50 servers, QA and Production.
 <a href="www.oracle.com/technetwork/database/features/plsql/index.html" target="_blank">PL-SQL</a>, <a href="https://www.mysql.com/" target="_blank">Mysql</a>, <a href="https://www.apache.org/" target="_blank">Apache</a>, <a href="https://www.nginx.com/" target="_blank">Nginx</a> servers managing and administering.`,
-            companyLink: 'www.toyga.co.il/',
+            companyLink: 'http://www.toyga.co.il/',
             companyShortDetail: '',
             date: 'Jan. - Nov. 2016'
         },
