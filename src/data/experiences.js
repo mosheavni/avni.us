@@ -4,6 +4,13 @@ export const experiences = {
     description: null,
     list: [
         {
+          title: "DevOps Engineer",
+            company: "Natural Intelligence",
+            description: "",
+            companyLink: "https://naturalint.com",
+            date: "Aug. 2018 - Present"
+        },
+        {
             title: 'DevOps Engineer',
             company: 'TradAir',
             description: `<ul>
@@ -14,7 +21,7 @@ export const experiences = {
 </ul>`,
             companyLink: 'https://www.tradair.com',
             companyShortDetail: '',
-            date: 'Nov. 2016 - Present'
+            date: 'Nov. 2016 - Aug. 2018'
         },
         {
             title: 'DevOps Engineer',
