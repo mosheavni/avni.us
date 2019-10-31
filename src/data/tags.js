@@ -7,6 +7,7 @@ export const tags = {
         'Ubuntu',
         'Bash',
         'Python',
+        'Groovy',
         'Docker',
         'Kubernetes',
         'Swarm',
