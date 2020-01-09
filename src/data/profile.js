@@ -28,7 +28,7 @@ const profile = {
     },
     interests: {
         sectionTitle: '',
-        list: ['Diving', 'Gym']
+        list: ['Scuba Diving', 'Photography', 'Gym']
     }
 };
 
