@@ -10,6 +10,8 @@ export const tags = {
         'Groovy',
         'Docker',
         'Kubernetes',
+        'Helm',
+        'Terraform'
         'Swarm',
         'Amazon Web Services',
         'CI/CD',
