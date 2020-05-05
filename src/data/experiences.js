@@ -8,7 +8,7 @@ export const experiences = {
             company: "Natural Intelligence",
             description: `<ul>
 <li>Writing full CI/CD Jenkins declarative pipelines in groovy.</li>
-<li>Deploying, managing and scaling dozens of Kubernetes clusters on an AWS infrastructure using KOPS, managing ingress controllers for multiple domains. Autoscaling with HPA.</li>
+<li>Deploying, managing and scaling dozens of Kubernetes clusters on an AWS infrastructure using KOPS and Terraform, managing ingress controllers for multiple domains. Autoscaling with HPA.</li>
 <li>Creating and maintaining Docker Swarm clusters on production - monitoring and auto healing with DataDog, scaling with Autoscaling groups.</li>
 <li>Deep network architecture, reducing TTFB, DNS Geo rules and failover, DNSMasq, ELB nginx and HAProxy load balancing, CloudFront with S3 CDN.</li>
 <li>Deploying and scaling data products ETLs and NoSQL DBs like EMR, Redshift, SageMaker, Airflow, Kinesis firehose.</li>
