@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+  nginx:
+    image: nginx:1.15-alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./data/nginx/app-init.conf:/etc/nginx/conf.d/app-init.conf
+    depends_on: ["avnius"]
+
+  certbot:
+    image: certbot/certbot
+    entrypoint: ["certbot", "certonly", "--nginx"]
+    volumes:
+      - /etc/letsencrypt/:/etc/letsencrypt/
+
+  avnius:
+    build: .
+    ports:
+      - 5000:5000
