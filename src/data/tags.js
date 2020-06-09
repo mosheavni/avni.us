@@ -11,7 +11,7 @@ export const tags = {
         'Docker',
         'Kubernetes',
         'Helm',
-        'Terraform'
+        'Terraform',
         'Swarm',
         'Amazon Web Services',
         'CI/CD',
