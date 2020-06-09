@@ -1,20 +1,21 @@
 version: "3.7"
 services:
-  nginx:
-    image: nginx:1.15-alpine
-    ports:
-      - "80:80"
-    volumes:
-      - ./data/nginx/app-init.conf:/etc/nginx/conf.d/app-init.conf
-    depends_on: ["avnius"]
-
   certbot:
     image: certbot/certbot
-    entrypoint: ["certbot", "certonly", "--nginx"]
-    volumes:
-      - /etc/letsencrypt/:/etc/letsencrypt/
-
-  avnius:
-    build: .
+    entrypoint: ""
     ports:
-      - 5000:5000
+      - "80:80"
+    command:
+      - sh
+      - -c
+      - "apk add --update nginx && pip install certbot-nginx && certbot \
+        certonly \
+        --nginx \
+        --non-interactive \
+        --agree-tos \
+        --email moshe@avni.us \
+        --domains avni.us --domains www.avni.us"
+    volumes:
+      - ./data/nginx/nginx.pid:/run/nginx/nginx.pid
+      - ./data/nginx/app-init.conf:/etc/nginx/conf.d/app-init.conf
+      - /etc/letsencrypt/:/etc/letsencrypt/
