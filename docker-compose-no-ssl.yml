@@ -5,7 +5,7 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./data/nginx/app-init.conf:/etc/nginx/conf.d/app-no-ssl.conf
+      - ./data/nginx/app-no-ssl.conf:/etc/nginx/conf.d/app-no-ssl.conf
     command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
     depends_on: ["avnius"]
 
