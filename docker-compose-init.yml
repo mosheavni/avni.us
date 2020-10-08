@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   certbot:
-    image: certbot/certbot
+    image: certbot/certbot:latest
     entrypoint: ""
     ports:
       - "80:80"
