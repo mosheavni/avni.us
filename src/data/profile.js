@@ -7,7 +7,7 @@ const profile = {
     phoneNumber: '+972 (54) 435 2293',
     website: 'avni.us',
     linkedin: 'linkedin.com/in/moshe-avni',
-    github: 'github.com/Moshem123',
+    github: 'github.com/mosheavni',
     imagePath: profileImg,
     twitter: null,
     educationDetails: {
