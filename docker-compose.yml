@@ -12,13 +12,6 @@ services:
     restart: always
     depends_on: ["avnius"]
 
-  certbot:
-    image: certbot/certbot:latest
-    entrypoint: "/bin/sh -c 'apk add --update nginx && pip install certbot-nginx ; trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
-    restart: always
-    volumes:
-      - /etc/letsencrypt/:/etc/letsencrypt/
-
   avnius:
     build: .
     ports:
